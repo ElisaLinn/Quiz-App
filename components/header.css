@@ -11,6 +11,7 @@ border: 5px solid var(--color-primary);
 .header--title {
     margin: 0;
     padding: 1rem;
+ font-family: Genaminto;
 }
 
 .header--bookmark {
@@ -25,6 +26,6 @@ border: 5px solid var(--color-primary)
 
 .header--title--bookmark {
     margin: 0;
-      
+    font-family: Genaminto;
     ;
 }
