@@ -23,3 +23,9 @@ position: relative;
     color: #1D3557;
     text-align: center;
 }
+.card--answers {
+   padding: 2rem;
+   display: grid;
+   gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
