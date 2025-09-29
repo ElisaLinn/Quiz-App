@@ -1,1 +1,25 @@
+@import "./components/card.css";
+.button--show-answers  {
+    font-size: 1.2rem;
+    padding: 2rem ;
+    color: var(--color-background);
+    text-align: center;
+    background-color: var(--color-dark);
+    border-radius: 25px;
+    display: flex;  
 
+    
+    
+}
+
+.button--show-answers:hover {
+    background-color: var(--color-accent);
+    cursor: pointer;
+}
+
+.button--show-answers-postioning {
+    display: flex;
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center;     /* vertikal zentrieren */
+    height: 100%;            /* oder gewünschte Höhe */
+}
