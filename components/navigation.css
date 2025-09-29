@@ -1,0 +1,50 @@
+.nav--background {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-primary);
+    border: 5px solid;
+    border-color: var(--color-dark);
+    border-radius: 25px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.nav--background--button__home {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav--background--button__bookmarks {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav--background--button__user {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav--background--button__home:hover {
+    background-color: var(--color-dark);
+    color: var(--color-background);
+}
+.nav--background--button__bookmarks:hover {
+    background-color: var(--color-dark);
+    color: var(--color-background);
+}
+.nav--background--button__user:hover {
+    background-color: var(--color-dark);
+    color: var(--color-background);
+}
