@@ -1,0 +1,17 @@
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/header.css";
+@import "./components/navigation.css";
+@import "./components/global.css";
+
+:root {
+    --color-primary: #A8DADC;
+    --color-secondary: #457B9D;
+    --color-accent: #E63946;
+    --color-background: #F1FAEE;
+    --color-dark: #1D3557;
+}
+
+body {
+    background-color: var(--color-secondary);
+}
