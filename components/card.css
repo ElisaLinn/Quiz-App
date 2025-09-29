@@ -1,3 +1,19 @@
 .card {
-    
+background-color: #A8DADC;
+border-radius: 25px;
+gap: 1rem;
+margin: 2rem;
+}
+.card--title {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+    color: #1D3557;
+    text-align: center;
+}
+.card--question {
+    font-size: 1.2rem;
+    padding: 1rem ;
+    color: #1D3557;
+    text-align: center;
 }
