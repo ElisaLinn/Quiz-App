@@ -50,3 +50,13 @@
     background-color: var(--color-accent);
     cursor: pointer;
 }
+
+.button--category {
+    font-size: 1rem;
+    padding: 0.5rem 1rem ;
+    color: var(--color-background);
+    text-align: center;
+    background-color: var(--color-dark);
+    border-radius: 25px;
+    border: none;
+}
