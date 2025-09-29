@@ -1,14 +1,14 @@
 .header {
-     position: sticky;
-     top: 0;
-}
-
-.header--title {
+    position: sticky;
+top: 0;
 font-size: 2rem;
 color: #F1FAEE;
 text-align: center;
 background-color: #1D3557;
 border-radius: 20px;
+}
 
-
+.header--title {
+    margin: 0;
+    padding: 1rem;
 }
