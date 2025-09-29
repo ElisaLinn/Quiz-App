@@ -29,3 +29,15 @@ position: relative;
    gap: 1rem;
     grid-template-columns: 1fr 1fr;
 }
+.card--category {
+
+    padding: 0.5rem;
+    color: var(--color-background);
+    text-align: center;
+    background-color: var(--color-background);
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem ;
+}

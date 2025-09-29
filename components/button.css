@@ -7,10 +7,11 @@
     background-color: var(--color-dark);
     border-radius: 25px;
     display: flex;   
+    border: none;
 }
 
 .button--show-answers:hover {
-    background-color: var(--color-accent);
+    background-color: green;
     cursor: pointer;
 }
 
@@ -19,14 +20,14 @@
     justify-content: center; 
     align-items: center;     
     height: 100%;     
-    padding: 15px;    
-
+    padding: 15px; 
 }
 .button--bookmark  {
     position: absolute;
     top: -39px;
+    left: -29px;
     font-size: rem;
- padding: 2rem ;
+    padding: 2rem ;
     color: var(--color-dark); 
     text-align: center;
     border-radius: 25px;
@@ -39,7 +40,7 @@
 }
 .button--answers {
     font-size: 1.2rem;
-    padding: 0.5rem 1rem ;
+    padding: 1rem 1rem ;
     color: var(--color-background);
     text-align: center;
     background-color: var(--color-dark);
@@ -59,4 +60,8 @@
     background-color: var(--color-dark);
     border-radius: 25px;
     border: none;
+}
+.button--category:hover {
+    background-color: var(--color-accent);
+    cursor: pointer;
 }
