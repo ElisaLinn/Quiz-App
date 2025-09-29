@@ -11,4 +11,21 @@ border: 5px solid var(--color-primary);
 .header--title {
     margin: 0;
     padding: 1rem;
+ font-family: Genaminto;
+}
+
+.header--bookmark {
+   top: 0;
+font-size: 2rem;
+color: #F1FAEE;
+text-align: center;
+background-color: #1D3557;
+border-radius: 20px;
+border: 5px solid var(--color-primary)
+}
+
+.header--title--bookmark {
+    margin: 0;
+    font-family: Genaminto;
+    ;
 }

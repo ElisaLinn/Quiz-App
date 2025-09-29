@@ -43,16 +43,37 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    padding: 1rem;
 }
 .nav--background--button__home:hover {
-    background-color: var(--color-dark);
-    color: var(--color-background);
+  background-color: var(--color-background);
+    color: var(--color-dark);
 }
+
 .nav--background--button__bookmarks:hover {
-    background-color: var(--color-dark);
-    color: var(--color-background);
+    background-color: var(--color-background);
+    color: var(--color-dark);
 }
+
+.nav--background--button__user:hover  {
+    background-color: var(--color-background);
+    color: var(--color-dark);
+}    
 .nav--background--button__user:hover {
+    background-color: var(--color-background);
+    color: var(--color-dark);
+}
+.nav--background--button__bookmarks-active {
     background-color: var(--color-dark);
+    border: none;
     color: var(--color-background);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.nav--background--button__bookmarks-active:hover {
+    background-color: var(--color-background);
+    color: var(--color-dark);
 }
