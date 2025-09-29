@@ -12,29 +12,37 @@
     grid-template-columns: 1fr 1fr 1fr;
     
 }
+
 .nav--background--button__home {
     background: none;
     border: none;
     cursor: pointer;
+    color: var(--color-dark);
+    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 .nav--background--button__bookmarks {
     background: none;
     border: none;
+    color: var(--color-dark);
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 .nav--background--button__user {
     background: none;
     border: none;
+    color: var(--color-dark);
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 .nav--background--button__home:hover {
     background-color: var(--color-dark);
