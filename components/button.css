@@ -24,7 +24,7 @@
 }
 .button--bookmark  {
     position: absolute;
-    top: -39px;
+    top: -45px;
     left: -29px;
     font-size: rem;
     padding: 2rem ;
@@ -34,6 +34,20 @@
     background-color: transparent;
     border: none
 }
+.button--bookmark  {
+    position: absolute;
+    top: -40px;
+    left: -29px;
+    font-size: rem;
+    padding: 2rem ;
+    color: var(--color-dark); 
+    text-align: center;
+    border-radius: 25px;
+    background-color: transparent;
+    border: none
+}
+
+
 .button--bookmark:hover {
     cursor: pointer;
     color: var(--color-accent);
@@ -54,7 +68,7 @@
 
 .button--category {
     font-size: 1rem;
-    padding: 0.5rem 1rem ;
+    padding: 0.5rem ;
     color: var(--color-background);
     text-align: center;
     background-color: var(--color-dark);
