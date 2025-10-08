@@ -1,103 +1,102 @@
 .nav--background {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--color-primary);
-    border: 5px solid;
-    border-color: var(--color-dark);
-    border-radius: 25px;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-primary);
+  border: 5px solid;
+  border-color: var(--color-dark);
+  border-radius: 25px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nav--background--button__home {
-    background-color: none;
-    border: none;
-    cursor: pointer;
-    color: var(--color-dark);
-    top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-dark);
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 }
 .nav--background--button__home__active {
-    background-color: var(--color-dark);
-    border: none;
-    color: var(--color-background);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    padding: 1rem;
+  background-color: var(--color-dark);
+  border: none;
+  color: var(--color-background);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
 }
 .nav--background--button__home__active:hover {
-    background-color: var(--color-background);
-    color: var(--color-dark);
+  background-color: var(--color-background);
+  color: var(--color-dark);
 }
 .nav--background--button__home:hover {
-    background-color:var(--color-background);
-    color: var(--color-dark);
+  background-color: var(--color-background);
+  color: var(--color-dark);
 }
 .nav--background--button__bookmarks:hover {
-    background-color:var(--color-background);
-    color: var(--color-dark);
+  background-color: var(--color-background);
+  color: var(--color-dark);
 }
 .nav--background--button__bookmarks {
-    background: none;
-    border: none;
-    color: var(--color-dark);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+  background: none;
+  border: none;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 }
 .nav--background--button__user {
-    background: none;
-    border: none;
-    color: var(--color-dark);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    padding: 1rem;
+  background: none;
+  border: none;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
 }
 .nav--background--button__user:hover {
-    background-color:var(--color-background);
-    color: var(--color-dark);
+  background-color: var(--color-background);
+  color: var(--color-dark);
 }
 .nav--background--button__bookmarks-active {
-    background-color: var(--color-dark);
-    border: none;
-    color: var(--color-background);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+  background-color: var(--color-dark);
+  border: none;
+  color: var(--color-background);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 }
 .nav--background--button__bookmarks-active:hover {
-    background-color: var(--color-background);
-    color: var(--color-dark);
+  background-color: var(--color-background);
+  color: var(--color-dark);
 }
 .nav--background--button__user__active {
-   background-color: var(--color-dark);
-    border: none;
-    color: var(--color-background);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    padding: 1rem;
+  background-color: var(--color-dark);
+  border: none;
+  color: var(--color-background);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
 }
 .nav--background--button__user__active:hover {
-    background-color: var(--color-background);
-    color: var(--color-dark);
+  background-color: var(--color-background);
+  color: var(--color-dark);
 }

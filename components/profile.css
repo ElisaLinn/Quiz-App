@@ -1,2 +1,72 @@
 .profile--user--profile {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-dark);
+  border-radius: 25px;
+  gap: 2rem;
+  margin: 3rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+.profile--about-me {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #1d3557;
+  text-align: center;
+  background-color: var(--color-background);
+  border-radius: 25px;
+}
+.profile--text {
+  text-align: center;
+  padding: 1rem;
+  color: var(--color-dark);
+}
+
+.profile--background--button__bookmarks {
+  background: none;
+  border: none;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.profile--background--button__questions {
+  background: none;
+  border: none;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+profile--background--button__counter:hover {
+  cursor: pointer;
+  color: var(--color-accent);
+}
+
+.profile--button--section {
+  text-align: center;
+  background-color: var(--color-primary);
+  padding: 1rem;
+  color: var(--color-dark);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 25px;
+}
+.profile--settings--section {
+  text-align: center;
+  background-color: var(--color-primary);
+  padding: 1rem;
+  color: var(--color-dark);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 25px;
+  margin: 1rem;
 }
