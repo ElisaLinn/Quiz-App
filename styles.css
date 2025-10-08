@@ -3,22 +3,23 @@
 @import "./components/header.css";
 @import "./components/navigation.css";
 @import "./components/global.css";
+@import "./components/profile.css";
 
-
-   @font-face {
-    font-family: 'Genaminto';
-    src: url('./assets/genaminto/fonts/otf/Genaminto-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+  font-family: "Genaminto";
+  src: url("./assets/genaminto/fonts/otf/Genaminto-Regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 :root {
-    --color-primary: #A8DADC;
-    --color-secondary: #457B9D;
-    --color-accent: #E63946;
-    --color-background: #F1FAEE;
-    --color-dark: #1D3557;
+  --color-primary: #a8dadc;
+  --color-secondary: #457b9d;
+  --color-accent: #e63946;
+  --color-background: #f1faee;
+  --color-dark: #1d3557;
 }
 
 body {
-    background-color: var(--color-secondary);
+  background-color: var(--color-secondary);
 }
