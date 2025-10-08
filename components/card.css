@@ -41,3 +41,21 @@
   justify-content: space-between;
   gap: 0.5rem;
 }
+.card--answer--hidden {
+  display: none;
+}
+
+.card--answer--hidden.show {
+  display: block;
+}
+.card--answer--layout {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #1d3557;
+  text-align: center;
+  background-color: var(--color-background);
+  border-radius: 25px;
+  border-color: var(--color-dark);
+  border: 5px solid;
+  margin: 10px;
+}

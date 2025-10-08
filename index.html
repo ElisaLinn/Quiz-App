@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="styles.css">
+      <script src="./index.js" defer></script>
 <body>
 </head>
 <header class="header">
@@ -24,14 +25,11 @@
     <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>
     </svg>
     </button>
-    <section class="card--answers">
-    <button class="button--answers"> Mew </button>
-    <button class="button--answers"> Rihorn </button>
-    <button class="button--answers"> Bisasam </button>
-    <button class="button--answers"> Pikachu </button>
+    <section class="card--answer--layout">
+    <p class="card--answer--hidden">Bisasam</p>
 </section>
 <div class="button--show-answers-postioning">
-        <button class="button--show-answers" aria-label="shows answer to question 1">
+        <button class="button--show-answers" aria-label="shows answer to question 1" aria-pressed="false" data-js="button--show-answers">
     Show answer
     </button>
     </div>
