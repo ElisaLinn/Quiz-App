@@ -22,18 +22,7 @@
   height: 100%;
   padding: 15px;
 }
-.button--bookmark {
-  position: absolute;
-  top: -45px;
-  left: -29px;
-  font-size: rem;
-  padding: 2rem;
-  color: var(--color-dark);
-  text-align: center;
-  border-radius: 25px;
-  background-color: transparent;
-  border: none;
-}
+
 .button--bookmark {
   position: absolute;
   top: -40px;
@@ -45,11 +34,31 @@
   border-radius: 25px;
   background-color: transparent;
   border: none;
+  fill: transparent;
 }
 .button--bookmark:hover {
   cursor: pointer;
   color: var(--color-accent);
 }
+.button--bookmark--clicked {
+  position: absolute;
+  top: -40px;
+  left: -29px;
+  font-size: rem;
+  padding: 2rem;
+  color: var(--color-dark);
+  text-align: center;
+  border-radius: 25px;
+  background-color: transparent;
+  border: none;
+  fill: var(--color-accent);
+  color: var(--color-accent);
+}
+.button--bookmark--clicked:hover {
+  cursor: pointer;
+  color: var(--color-dark);
+}
+
 .button--answers {
   font-size: 1.2rem;
   padding: 1rem 1rem;
