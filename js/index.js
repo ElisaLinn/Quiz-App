@@ -1,5 +1,12 @@
 console.clear();
 
+const card = document.querySelector(".card");
+const ButtonBookmark = document.querySelector(".button--bookmark");
+
+ButtonBookmark.addEventListener("click", () => {
+  card.classList.toggle("clicked");
+});
+
 document.querySelectorAll(".button--show-answers").forEach((button) => {
   button.addEventListener("click", () => {
     const card = button.closest(".card");
@@ -16,4 +23,5 @@ document.querySelectorAll(".button--show-answers").forEach((button) => {
     button.setAttribute("aria-pressed", isShown ? "true" : "false");
   });
 });
+
 console.log("Script läuft");
