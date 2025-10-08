@@ -49,7 +49,8 @@
   display: block;
 }
 .card--answer--layout {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
   padding: 1rem;
   color: #1d3557;
   text-align: center;
