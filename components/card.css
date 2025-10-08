@@ -1,47 +1,43 @@
 @import "./components/theme.css";
 .card {
-background-color: var(--color-primary);
-border-color: var(--color-primary);
-border-radius: 25px;
-gap: 2rem;
-margin: 3rem;
-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3) ;
-position: relative;
-
-
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: 25px;
+  gap: 2rem;
+  margin: 3rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 .card--title {
-    font-size: 1.5rem;;
-    padding: 1rem;
-    color: #1D3557;
-    text-align: center;
-    background-color: var(--color-background);
-    border-radius: 25px;
-
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #1d3557;
+  text-align: center;
+  background-color: var(--color-background);
+  border-radius: 25px;
 }
 .card--question {
-    font-size: 1.2rem;
-    padding: 1rem;
-    color: var(--color-dark);
-    text-align: center;
-    background-color: var(--color-background);
-    border-radius: 25px;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: var(--color-dark);
+  text-align: center;
+  background-color: var(--color-background);
+  border-radius: 25px;
 }
 .card--answers {
-   padding: 2rem;
-   display: grid;
-   gap: 1rem;
-    grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
 }
 .card--category {
-
-    padding: 0.5rem;
-    color: var(--color-background);
-    text-align: center;
-    background-color: var(--color-background);
-    border-radius: 25px;
-    border: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 0.5rem ;
+  padding: 0.5rem;
+  color: var(--color-background);
+  text-align: center;
+  background-color: var(--color-background);
+  border-radius: 25px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
