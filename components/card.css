@@ -4,7 +4,7 @@
   border-color: var(--color-primary);
   border-radius: 25px;
   gap: 2rem;
-  margin: 3rem;
+  margin: 1rem;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   position: relative;
 }
@@ -16,6 +16,18 @@
   background-color: var(--color-background);
   border-radius: 25px;
 }
+.card--title__question {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #1d3557;
+  text-align: center;
+  background-color: var(--color-background);
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
 .card--question {
   font-size: 1.2rem;
   padding: 1rem;
@@ -60,4 +72,19 @@
   border: 5px solid;
   margin-left: 10px;
   margin-right: 10px;
+}
+.card--answer--layout__question {
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 2rem;
+  color: #1d3557;
+  text-align: center;
+  background-color: var(--color-background);
+  border-radius: 25px;
+  border-color: var(--color-dark);
+  border: 5px solid;
+  margin: 1rem;
+  width: calc(100% - 2rem);
+  max-width: 100%;
+  box-sizing: border-box;
 }

@@ -22,3 +22,10 @@ ShowAnswerButton.addEventListener("click", () => {
 const TextShown = ShowAnswerButton;
 
 console.log("Script läuft");
+
+const body = document.querySelector('[data-js="body"]');
+const textInputQuestion = document.querySelector('[data-js="textInputQustion"]');
+const textInputAnswer = document.querySelector('[data-js="textInputAnswer"]');
+const textInputTag = document.querySelector('[data-js="textInputTag"]');
+
+const
