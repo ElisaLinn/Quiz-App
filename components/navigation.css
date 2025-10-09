@@ -9,7 +9,7 @@
   border-radius: 25px;
   padding: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .nav--background--button__home {
@@ -67,6 +67,39 @@
   border-radius: 20px;
   padding: 1rem;
 }
+.nav--background--button__add--questions {
+  background: none;
+  border: none;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.nav--background--button__add--questions__active {
+  background-color: var(--color-dark);
+  border: none;
+  color: var(--color-background);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.nav--background--button__add--questions:hover {
+  background-color: var(--color-background);
+  color: var(--color-dark);
+}
+
+.nav--background--button__add--questions__active:hover {
+  background-color: var(--color-background);
+  color: var(--color-dark);
+}
+
 .nav--background--button__user:hover {
   background-color: var(--color-background);
   color: var(--color-dark);
