@@ -86,3 +86,26 @@
   background-color: var(--color-accent);
   cursor: pointer;
 }
+.button--tag__question {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--color-background);
+  text-align: center;
+  background-color: var(--color-dark);
+  border-radius: 25px;
+  border: none;
+}
+.button--tag--add__question {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--color-background);
+  text-align: center;
+  background-color: var(--color-dark);
+  border-radius: 25px;
+  border: none;
+  justify-content: center;
+}
+.button--tag--add__question:hover {
+  background-color: var(--color-accent);
+  cursor: pointer;
+}
