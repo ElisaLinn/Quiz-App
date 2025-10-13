@@ -108,3 +108,9 @@ if (questionInput && questionCount) {
 if (answerInput && answerCount) {
   setupCharacterCounter(answerInput, answerCount, 100);
 }
+const card = document.querySelector(".card");
+const ButtonBookmark = document.querySelector(".button--bookmark");
+
+ButtonBookmark.addEventListener("click", () => {
+  ButtonBookmark.classList.toggle("button--bookmark--clicked");
+});
