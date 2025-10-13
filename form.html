@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="styles.css">
-      <script src="js/index.js" defer></script>
+      <script src="js/form.js" defer></script>
     <title>Document</title>
 </head>
 <body data-js="body">
     <header class="header">
-    <h1 class="header--title" data-js="textInputQuestion">Add Questions</h1>
+    <h1 class="header--title" aria-placeholder="Add Question here" placeholder="Add Question here">Add Questions</h1>
 </header>
-    <main>
+    <main data-js="main">
         <div class="card">
-            <textarea aria-label="Add a Question" class="card--title__question"> Add a Question here</textarea>
+            <textarea aria-label="Add a Question" aria-placeholder="Add Question here" maxlenght="100" placeholder="Add Question here" class="card--title__question" data-js="textInputQuestion"></textarea>
+            <section class="character--section">
+            <p class="character--counter" data-js="questionCharCount">0/100</p>
+            </section>
             <button class="button--bookmark" data-js="button--bookmark"
     aria-label="adds card to bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="50" 
     height="40" viewBox="0 0 24 24"  
@@ -25,16 +28,18 @@
     </svg>
     </button>
     
-    <textarea aria-label="Add yor question" data-js="textInputAnswer" class="card--answer--layout__question">Add your answer here..</textarea>
-
+    <textarea aria-label="Add yor Answer" data-js="textInputAnswer" maxlenght="100" aria-placeholder="Add answer here..."placeholder="Add answer here..." class="card--answer--layout__question"></textarea>
+    <section class="character--section">
+<p class="character--counter" data-js="answerCharCount">0/100</p>
+    </section>
     <div class="button--show-answers-postioning">
-        <button class="button--show-answers" aria-label="shows answer to question 1" aria-pressed="false" data-js="button--show-answers">
+        <button class="button--show-answers" aria-label="shows answer to question 1" aria-pressed="false" data-js="submit">
     Submit
     </button>
     </div>
-    <div class="card--category">
-    <label for="Add Tags">Add Tags</label><input type="text" data-js="textInputTag" class="button--tag__question"/>
-     <button aria-label="add a tag" class="button--tag--add__question">Add Tags</button>
+    <div class="card--category__forms">
+    <label for="Add Tags"</label><input type="text" data-js="textInputTag" placeholder="Add Tags" class="button--tag__question"/>
+     <!-- <button aria-label="add a tag" class="button--tag--add__question">Add Tags</button> -->
         </div>
     </main>
     <nav class="nav--background">

@@ -23,9 +23,20 @@ const TextShown = ShowAnswerButton;
 
 console.log("Script läuft");
 
-const body = document.querySelector('[data-js="body"]');
-const textInputQuestion = document.querySelector('[data-js="textInputQustion"]');
+const main = document.querySelector('[data-js="main"]');
+const textInputQuestion = document.querySelector(
+  '[data-js="textInputQuestion"]'
+);
 const textInputAnswer = document.querySelector('[data-js="textInputAnswer"]');
 const textInputTag = document.querySelector('[data-js="textInputTag"]');
 
-const
+main.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const Card = document.createElement("div");
+  Card.classList.add("card");
+
+  const CardTitle = document.createElement("h2");
+  CardTitle.classList.add("card--title");
+  CardTitle.textContent = textInputQuestion.value;
+});
